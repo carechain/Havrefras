@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Havrefras"
-  s.version          = "0.0.1"
+  s.version          = "0.4.3"
   s.summary          = "A variant of a healthful serializer for your HealthKit data."
   s.homepage         = "https://github.com/carechain/Havrefras"
   s.license          = { :type => 'Apache 2.0',
