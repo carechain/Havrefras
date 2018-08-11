@@ -197,15 +197,33 @@
              @"header": @{
                      @"id": self.sample.UUID.UUIDString,
                      @"creation_date_time": [self.sample.startDate RFC3339String],
+                     @"user_id": @"some-user",
                      @"schema_id": @{
                              @"namespace": [self schemaNamespace],
                              @"name": [self schemaName],
                              @"version": [self schemaVersion]
                              },
+                     @"acquisition_provenance": @{
+                             @"source_name": [self source],
+                             @"source_creation_date_time": [self date],
+                             @"modality": [self modality]
+                        },
                      },
              @"body":serializedBodyDictionaryWithMetadata
              };
-    
+}
+
+- (NSString*)source {
+    return @"generator";
+}
+
+- (NSString*)date {
+    NSDate *now = [NSDate new];
+    return [now RFC3339String];
+}
+
+- (NSString*)modality {
+    return @"sensed";
 }
 
 - (NSString*)schemaName {
