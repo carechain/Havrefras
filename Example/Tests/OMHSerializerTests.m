@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-#import <Granola/OMHSerializer.h>
+#import <Havfrefras/OMHSerializer.h>
 #import <VVJSONSchemaValidation/VVJSONSchema.h>
 #import <ObjectiveSugar/ObjectiveSugar.h>
-#import <Granola/OMHError.h>
-#import <Granola/OMHHealthKitConstantsMapper.h>
+#import <Havrefras/OMHError.h>
+#import <Havrefras/OMHHealthKitConstantsMapper.h>
 #import "OMHSampleFactory.h"
 #import "OMHSchemaStore.h"
 #import "NSDate+RFC3339.h"

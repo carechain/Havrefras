@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.5)
-  - Granola (0.4.0):
+  - Havrefras (0.4.3):
     - ObjectiveSugar (~> 1.1)
   - ObjectiveSugar (1.1.0)
   - Specta (1.0.5)
@@ -8,19 +8,28 @@ PODS:
 
 DEPENDENCIES:
   - Expecta (~> 1.0)
-  - Granola (from `../`)
+  - Havrefras (from `../`)
   - Specta (~> 1.0)
   - VVJSONSchemaValidation (~> 1.3)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - ObjectiveSugar
+    - Specta
+    - VVJSONSchemaValidation
+
 EXTERNAL SOURCES:
-  Granola:
+  Havrefras:
     :path: "../"
 
 SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Granola: c765790ab0a5ab322cb09717f415a1d12e0bdcb4
+  Havrefras: 84faf692820d234f06dfdbe322090ae5107fdd89
   ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
   VVJSONSchemaValidation: 11f5ba886e80baccae5d606f3b10f20c1303200d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 51f19eb628305e7f2a6b16493d4f45235d2c38fb
+
+COCOAPODS: 1.6.0.beta.2
