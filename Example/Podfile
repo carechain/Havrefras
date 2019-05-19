@@ -1,6 +1,10 @@
+platform :ios, '12.1'
+
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Granola' do
+  platform :ios, '12.1'
+
   pod "Havrefras", :path => "../"
 
   pod 'Specta', '~> 1.0'
